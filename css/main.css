@@ -1,13 +1,32 @@
 html {
-  background-color: #dfe0c8;
+  background-color: #dbd6cf;
 }
 
-h1,h2 {
+h1 {
   color: #79756f;
+  font-family: 'Bevan', cursive;
   font-size: 2rem;
   font-weight: normal;
-  line-height: 0;
+  line-height: 1;
+}
+
+h2 {
+  color: #79756f;
   font-family: 'Bevan', cursive;
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+
+h3 {
+  color: #79756f;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1;
+  font-family: 'Bevan', cursive;
+}
+
 }
 
 a {
@@ -20,14 +39,55 @@ a:hover {
 
 ol {
   list-style-type: none;
-  padding: 0
-  font-family: Arial,sans-serif;
+  padding: 0;
+  line-height: 1.5
+
 }
 
 ul {
-  list
+  list-style-type: circle;
+  line-height: 1.5;
+}
+
+.list1 {
+  list-style-type: lower-roman;
+  font-family: Arial,sans-serif;
+
 }
 
 p {
   font-family: Arial,sans-serif;
+  line-height: 1.5
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem
+}
+
+dl {
+  font-family: Arial,sans-serif;
+}
+
+figcaption {
+   font-family: Arial,sans-serif;
+   font-style: italic;
+   font-size: 12px;
+ }
+
+footer {
+  text-align: right;
+}
+.quotemark {
+  color: #79756f;
+}
+
+.celestial {
+  color: #79756f;
+}
+.rounded {
+  color: #79756f;
+}
+.ndt {
+  color: #79756f;
 }
