@@ -1,0 +1,33 @@
+html {
+  background-color: #dfe0c8;
+}
+
+h1,h2 {
+  color: #79756f;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 0;
+  font-family: 'Bevan', cursive;
+}
+
+a {
+  color: #803837;
+}
+
+a:hover {
+  color: #ff3333;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0
+  font-family: Arial,sans-serif;
+}
+
+ul {
+  list
+}
+
+p {
+  font-family: Arial,sans-serif;
+}
